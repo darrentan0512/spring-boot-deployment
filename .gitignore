@@ -1,0 +1,44 @@
+# Ignore IDE files
+.idea/
+.vscode/
+.eclipse/
+
+# Ignore build and target directories
+build/
+target/
+
+# Ignore logs and temporary files
+logs/
+tmp/
+*.tmp
+*.log
+
+# Ignore Maven and Gradle files
+.mvn/
+.gradle/
+
+# Ignore Docker and Kubernetes files
+docker-compose.yml
+Dockerfile
+*.dockerignore
+.kube/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore Java-specific files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore Spring Boot-specific files
+spring-boot-docker.properties
+spring-boot-docker.yml
+
+# Ignore other miscellaneous files
+*.iml
+*.ipr
+*.iws
+*.settings/
