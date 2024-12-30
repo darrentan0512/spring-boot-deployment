@@ -1,0 +1,10 @@
+name: spring-boot-deployment
+services:
+  - name: web
+    github:
+      repo: darrentan0512/spring-boot-deployment
+      branch: master
+    source_dir: /
+    http_port: 8080
+    instance_count: 1
+    instance_size_slug: basic-xxs
